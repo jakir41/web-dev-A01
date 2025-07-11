@@ -51,7 +51,6 @@
     padding-bottom: 50px;
 
 }
-
 .banner-description {
     align-items: center;
     max-width: 1140px;
@@ -59,8 +58,6 @@
     text-align: center;
     padding-top: 150px;
     padding-bottom: 150px;
-
-
 }
 
 /* banner section */
@@ -69,21 +66,17 @@
 
 main {
     background: linear-gradient(to bottom, white, rgb(195, 197, 196));
-
 }
-
 .card {
     max-width: 1140px;
     margin: 0 auto;
 }
-
 .mini-action {
     display: flex;
     justify-content:space-between;
     align-items: center;
     margin-top: 70px;
     margin-bottom: 70px;
-
 }
 
 .card-title h2 {
@@ -95,7 +88,7 @@ main {
     color: darkgray;
     padding-top: 20px;
     padding-bottom: 20px;
-}
+} 
 
 .mini-action img {
     border-radius: 10px;
@@ -166,7 +159,8 @@ main {
     
 }
 .template-container{
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 150px;
     gap: 20px;
     display: flex;
 }
@@ -229,9 +223,12 @@ main {
     padding-bottom: 20px;
 }
 .better img{
-    border-radius: 60px;
+    border-radius: 50px;
+  
+}
+.img{
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
 }
 
 
