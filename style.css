@@ -120,7 +120,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 221px;
+    height: 240px;
     
 }
 
@@ -149,4 +149,34 @@ main {
     display: flex;
     flex-direction: column;
     gap: 80px;
+    
+}
+/* user section end */
+
+.studio{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.better{
+    background-color:#FFFFFF;
+    margin-top: 70px;
+    border-radius: 10px;
+    text-align: center;
+    /* height: 650px; */
+    padding-top: 50px;
+    
+}
+.better h4{
+    font-weight: bold;
+    font-size: 50px;
+}
+.better p{
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.better img{
+    border-radius: 60px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
