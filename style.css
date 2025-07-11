@@ -68,7 +68,7 @@
 /* card section start card 1 */
 
 main {
-    background: linear-gradient(to bottom, white, lightgray);
+    background: linear-gradient(to bottom, white, rgb(195, 197, 196));
 
 }
 
@@ -113,7 +113,7 @@ main {
     background-color: #d1d0e4;
     border-radius: 10px;
     padding-top: 50px;
-    /* height: 406px; */
+    
 }
 
 .user-container {
@@ -153,6 +153,60 @@ main {
 }
 /* user section end */
 
+/* bouns part start */
+.template-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.text-container{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.template-container{
+    margin-top: 20px;
+    gap: 20px;
+    display: flex;
+}
+
+.template-text h2{
+    font-weight: bold;
+    padding-top: 10px;
+}
+.template-text p{
+    color: #575661;
+    padding-top: 5px;
+}
+
+.template{
+    padding: 20px;
+    width: 330px;
+    border: 1px solid rgb(236, 221, 218);
+    background-color: whitesmoke;
+    border-radius: 10px;
+   
+}
+.avater{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+.avater-text h1{
+    color: rgb(96, 94, 94);
+}
+.avater p{
+    color: grey;
+}
+.avater img{
+    border-radius: 100%;
+}
+
+
+/* bouns part end */
+
 .studio{
     max-width: 1140px;
     margin: 0 auto;
@@ -162,7 +216,6 @@ main {
     margin-top: 70px;
     border-radius: 10px;
     text-align: center;
-    /* height: 650px; */
     padding-top: 50px;
     
 }
@@ -180,3 +233,78 @@ main {
     padding-top: 30px;
     padding-bottom: 20px;
 }
+
+
+.input-field{
+    max-width: 1140px;
+    height: 530px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-text{
+    font-weight: bold;
+    font-size: 95px;
+}
+
+#btn{
+    width: 100%;
+    margin-top: 20px;
+}
+input{
+    margin-top: 10px;
+    padding: 15px 210px 15px 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+
+}
+.input textarea{
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+input:focus{
+    border:none;
+    outline: none;
+}
+
+.form label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* footer section start */
+.footer{
+    height: 300px;
+    padding-top: 130px;
+    
+}
+.footer-text{
+    text-align: center;
+}
+.footer-text h4{
+    font-weight: bold;
+    color: #4E47FF;
+    font-size: 100px;
+}
+.footer-text p{
+    color: #8987A1;
+    padding-top: 20px;
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 40px;
+    
+}
+.footer-list li{
+    list-style: none;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+/* footer section end */
