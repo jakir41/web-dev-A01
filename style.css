@@ -1,14 +1,15 @@
-
 .inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,18 +17,21 @@
     margin: 0 auto;
     padding-top: 70px;
 }
-.banner-container{
+
+.banner-container {
     background-image: url(./icon/Hero-bg.png);
     background-size: cover;
-    
+
 }
-.banner-logo{
+
+.banner-logo {
     color: #4E47FF;
-    font-size:xx-large;
+    font-size: xx-large;
     font-weight: bold;
 }
-.btn-primary{
-    background-color:#4E47FF;
+
+.btn-primary {
+    background-color: #4E47FF;
     color: white;
     font-weight: bold;
     padding: 10px 30px;
@@ -35,56 +39,114 @@
     border-radius: 10px;
     font-size: 18px;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     cursor: pointer;
-    background-color:grey;
+    background-color: grey;
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 60px;
     padding-bottom: 50px;
-    
+
 }
-.banner-description{
+
+.banner-description {
     align-items: center;
     max-width: 1140px;
     margin: 0 auto;
     text-align: center;
     padding-top: 150px;
     padding-bottom: 150px;
-    
-    
+
+
 }
+
 /* banner section */
 
-/* card section card 1 */
+/* card section start card 1 */
 
-main{
-     background: linear-gradient(to bottom, white, lightgray);
-     
+main {
+    background: linear-gradient(to bottom, white, lightgray);
+
 }
-.card{
-     max-width: 1140px;
+
+.card {
+    max-width: 1140px;
     margin: 0 auto;
 }
-.mini-action{
+
+.mini-action {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     margin-top: 70px;
     margin-bottom: 70px;
-    
+
 }
-.card-title h2{
+
+.card-title h2 {
     font-weight: bold;
     font-size: 40px;
 }
-.card-title p{
+
+.card-title p {
     color: darkgray;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.mini-action img{
+
+.mini-action img {
     border-radius: 10px;
+
+}
+
+/* card 1 section end */
+
+
+/* user section start  */
+
+.user-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #d1d0e4;
+    border-radius: 10px;
+    padding-top: 50px;
+    /* height: 406px; */
+}
+
+.user-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 221px;
     
+}
+
+.user-text {
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+
+.user-active {
+    text-align: center;
+}
+
+.user-active h4 {
+    font-weight: bold;
+    color: #4E47FF;
+    font-size: 75px;
+}
+
+.user-active p {
+    color: rgb(121, 118, 118);
+
+}
+
+#focus {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
 }
